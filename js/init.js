@@ -28,7 +28,7 @@
 					hidden: true,
 					animation: 'pushY',
 					width: '100%',
-					height: 275,
+					height: 100,
 					html: '<nav data-action="navList" data-args="nav"></nav>',
 					clickToHide: true,
 					swipeToHide: false,
@@ -73,7 +73,7 @@
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
-			
+
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
 			});
@@ -92,7 +92,7 @@
 				}
 
 			}
-			
+
 		// Scrolly links.
 			$('.scrolly').scrolly(1000, -10);
 
@@ -122,7 +122,7 @@
 					});
 
 				});
-			
+
 			}
 
 	});
